@@ -1,0 +1,372 @@
+
+* {
+	font-size: small;
+}
+h4 {
+	border: 1px solid #e2e2e2;
+	margin: 0;
+	text-align: center;
+	background-color: #afedfa;
+	font-size: 13px;
+}
+body {
+	margin-top: 5px;
+	height: 850px;
+}
+
+.main {
+	margin-bottom: 5px;
+}
+
+#left {
+	width: 22%;
+	height: 850px;
+	float: left;
+	margin-right: 5px;
+}
+.accordion-button{
+	width: 100%;
+
+}
+.accordion-header{
+	margin:0;
+}
+#middle {
+	width: 45%;
+	height: 850px;
+	float: left;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+#right {
+	width: 31%;
+	height: 850px;
+	float: left;
+	margin-top: 15px;
+}
+
+#wating {
+	width: 100%;
+	height: 33%;
+}
+
+#recordlist {
+	width: 100%;
+	height: 23.3%;
+}
+
+#inputpic {
+	width: 100%;
+	height: 40%;
+}
+
+#info {
+	display: inline-block;
+	height: 6%;
+	margin-left: 24%;
+	width: 510px;
+}
+
+#chart {
+	width: 100%;
+	height: 40%;
+}
+
+#pastchart {
+	width: 100%;
+	height: 63.4%;
+}
+
+#buttonframe {
+	height: 6%;
+	display: inline-block;
+	float: right;
+	width: 30%;
+	margin-top: 13px;
+    margin-bottom: 7px;
+    margin-right: 15px;
+}
+
+#orderset {
+	width: 100%;
+	height: 34%;
+}
+
+#order {
+	width: 20px;
+}
+
+#watingtable {
+	margin-bottom: 0;
+}
+
+#recordtable {
+	display: block;
+	width: 100%;
+	overflow: auto;
+	height: 170px;
+	margin-bottom: 0;
+}
+#chartbox{
+    height: 92%;
+    top: -3px;
+    position: relative;
+
+}
+#fileupload {
+
+
+	margin-bottom: 0;
+}
+
+.recordtablelist {
+	width: 500px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.result {
+	width: 84%;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-left: 30px;
+	background-color: #e2e2e2;
+}
+
+.fa-paperclip {
+	display: block;
+	border: 1px solid #e2e2e2
+}
+
+.lightBoxGallery {
+	height: 100px;
+	margin-bottom: 0;
+}
+
+.ibox {
+	height: 100%;
+}
+
+.ibox-content {
+	padding: 0;
+	overflow: auto;
+}
+
+.number {
+	width: 50px;
+	heigh: 30px;
+}
+
+.medicine {
+	margin-bottom: 0;
+}
+
+td, th {
+	text-align: center;
+}
+
+.closebutton {
+	font-size: 20px;
+	color: red;
+}
+
+.clear {
+	clear: both;
+}
+
+.table-bordered {
+	border: none;
+}
+
+#dur {
+	float: right;
+	height: 18px;
+	font-size: x-small;
+	color: white;
+	padding:0;
+	margin:0;
+	width: 76px;
+    padding-top: 1px;
+}
+
+#pastrecord {
+	display: block;
+	overflow: auto;
+	height: 311px;
+	width: 100%;
+}
+
+.card-header, .card-body {
+	padding: 0;
+}
+
+h5 {
+	text-align: center;
+}
+
+.panel-body {
+	display: block;
+	overflow: auto;
+	height: 200px;
+	width: 100%;
+}
+
+.mediname {
+	width: 300px;
+}
+
+.fa-medkit {
+	float: right;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.fa-paperclip, .mediname {
+	cursor: pointer;
+}
+#dieaseRegist{
+    top: -2px;
+    position: relative;
+    height: 28px;
+    padding-top: 3px;
+
+}
+#drugRegist{
+    height: 29px;
+    position: relative;
+    top: -2px;
+
+}
+.uploadimg {
+	width: 40%;
+	height: 100px;
+	float: left;
+	margin-left: 10px;
+	background-size: cover;
+}
+
+#prescriptionbox {
+	height: 250px;
+}
+
+.pastpic {
+	width: 150px;
+	height: 150px;
+}
+
+#ordersetbody {
+	padding: 0;
+	height: 251px;
+}
+
+.titlediv {
+	text-align: center;
+	width: 100%;
+	padding: 5px;
+	background-color: rgb(26, 179, 148) !important;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 5px;
+	font-size: 12px;
+	word-spacing: 0px;
+	border-radius: 5px;
+}
+
+.underchart {
+	height: 54%;
+	width: 100%;
+}
+
+.recordresult {
+	padding: 0;
+}
+
+.selectbox {
+	padding-top: 0;
+	height: 22px;
+}
+
+.diseasename {
+	width: 365px;
+}
+
+.secondpastresult {
+	width: 60px;
+}
+
+#autocomplete {
+	font-size: 20px;
+	width: 26px;
+	height: 26px;
+	padding-top: 0;
+	float: right;
+	    position: relative;
+    top: -5px;
+}
+
+#automodify {
+	font-size: 17px;
+	width: 25px;
+	height: 25px;
+	padding-top: 0;
+	margin-right: 5px;
+	float: right;
+	position: relative;
+    top: -3px;
+}
+
+.dropdown-menu {
+	margin-left: 25px;
+}
+#textform{
+height: 313px;
+ resize: none;
+  font-size: 14px;
+
+}
+.drugName{
+	text-align: left;
+width: 270px;
+}
+#hiddendata {
+	display: none;
+}
+
+.reload {
+	float: right;
+	margin-right: 15px;
+}
+
+.red::before {
+	color: red;
+}
+
+.pastimg {
+	background-size: cover;
+	width: 45%;
+	height: 120px;
+	float: left;
+	display: inline-block;
+	margin: 5px;
+}
+
+.pastfile {
+	text-align: center;
+	height: 20px;
+}
+
+.file {
+	width: 45%;
+	float: left;
+	margin: 5px;
+}
+
+.file .icon {
+	padding: 0;
+	height: 80px;
+}
+
+.fa-ellipsis-v, .fa-pencil-square-o {
+	color: white;
+}
